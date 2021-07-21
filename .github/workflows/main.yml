@@ -51,7 +51,7 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/simplewhale:${{CF_BRANCH_TAG_NORMALIZED_LOWER_CASE}}
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/simplewhale:1.0
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/.buildx-cache
 
