@@ -8,6 +8,7 @@ The commits and tags in this repository were carefully created to match the sequ
 
 
 
+
 For Readers of the First Edition of the Book
 --------------------------------------------
 
