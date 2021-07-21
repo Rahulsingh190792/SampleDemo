@@ -51,7 +51,7 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/simplewhale:v4
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/simplewhale:v5.0.0
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/.buildx-cache
 
