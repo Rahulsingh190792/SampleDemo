@@ -1,9 +1,34 @@
-{% extends "base.html" %}
+<!DOCTYPE html>
+<html>
+<title>
+Fun Friday Demo Session
+</title>
+<body>
+<h1> <a href='https://docs.docker.com/get-started/overview/'>Docker</a> </h1>
+<p>
+Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker’s methodologies for shipping, testing, and deploying code quickly, you can significantly reduce the delay between writing code and running it in production.
+</p>
 
-{% block title %}Flasky{% endblock %}
 
-{% block page_content %}
-<div class="page-header">
-    <h1>Hello, {% if current_user.is_authenticated %}{{ current_user.username }}{% else %}DI IT Team 01{% endif %}!</h1>
-</div>
-{% endblock %}
+
+<h1> <a href='https://hub.docker.com/'>Docker Hub</a> </h1>
+<p>
+Docker Hub is a service provided by Docker for finding and sharing container images with your team. It is the world’s largest repository of container images with an array of content sources including container community developers, open source projects and independent software vendors (ISV) building and distributing their code in containers.
+</p>
+
+<h1> <a href='https://github.com/'>GitHub</a> </h1>
+<p>
+GitHub is one of the world’s largest community of developers. It’s an intricate platform that fosters collaboration and communication between developers. GitHub has a number of useful features that enable development teams to work together on the same project and easily create new versions of software without disrupting the current versions, but it doesn’t stop there.
+</p>
+<p>
+Once new additions to a program are complete, for example, they can easily be incorporated into existing programs. GitHub also makes it extremely simple to work together on strings of code to really dial in and perfect even the smallest parts of a program. With GitHub, you can collaborate and work on projects with others anywhere in the world.
+</p>
+
+<h1> <a href='https://eu-central-1.console.aws.amazon.com/ecr/repositories?region=eu-central-1'>AWS ECR</a> </h1>
+<p>
+Amazon Elastic Container Registry (ECR) is a fully managed container registry that makes it easy to store, manage, share, and deploy your container images and artifacts anywhere. Amazon ECR eliminates the need to operate your own container repositories or worry about scaling the underlying infrastructure. Amazon ECR hosts your images in a highly available and high-performance architecture, allowing you to reliably deploy images for your container applications. You can share container software privately within your organization or publicly worldwide for anyone to discover and download.
+</p>
+
+
+</body>
+</html>
