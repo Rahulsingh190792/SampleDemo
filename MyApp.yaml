@@ -1,6 +1,0 @@
-version: '3'
-services:
-  my-app:
-    image: python-docker:v1.0.1
-    ports:
-    - 5000:5000
